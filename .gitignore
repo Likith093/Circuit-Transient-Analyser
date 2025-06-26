@@ -1,0 +1,29 @@
+# Ignore backup and autosave files
+*.asv
+*.m~
+*.bak
+
+# Ignore Simulink cache and code generation folders (if used)
+slprj/
+sccprj/
+work/
+*.mdl.rtw
+*.tlc
+*.log
+
+# Ignore MATLAB preferences and crash dumps
+*.matlab
+matlab_crash_dump.*
+*.mlappinstall
+
+# Ignore output figures (optional, comment out if you want to keep them)
+*.fig
+*.png
+
+# Ignore temp files or logs
+*.tmp
+*.log
+
+# Mac/Windows OS files
+.DS_Store
+Thumbs.db
